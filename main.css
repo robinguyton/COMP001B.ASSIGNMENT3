@@ -13,21 +13,25 @@ body {
 
 h1, h2, h3 {
 	font-family: 'Rakkas', cursive;
-	font-size: 48px;
+	
 }
 
-aside { width: 10%;
+aside { width: 20%;
 	float: left;
 	margin-right: 20px;
+	position: relative;
+	bottom:10px;
+	font-size: 24px;
+	margin-left: 10px;
 	
 }
 
 footer {clear: both;
-	padding-top: 30px;
+	padding-top: 40px;
 
 }
 
-header {
+header {font-size: 24px;
 
 }
 
@@ -37,14 +41,18 @@ img {
 }
 
 main { float: left;
-	width: 60%;
+	width: 50%;
 	height: 50%;
 	font-size: 24px;
+	position: relative;
+	bottom:0px
+
 
 }
 
 nav { width: 15%;
 	float: left;
+	font-size: 24px;
 
 }
 
@@ -53,5 +61,8 @@ nav { width: 15%;
 }
 
 #main-container {
+	position: relative;
+	top:10px
+	
 
 }
