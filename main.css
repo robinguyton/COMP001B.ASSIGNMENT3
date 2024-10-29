@@ -16,12 +16,14 @@ h1, h2, h3 {
 	font-size: 48px;
 }
 
-aside { width: 25%;
+aside { width: 10%;
 	float: left;
+	margin-right: 20px;
 	
 }
 
-footer {
+footer {clear: both;
+	padding-top: 30px;
 
 }
 
@@ -29,18 +31,15 @@ header {
 
 }
 
-p{width: 60%;
-	font-size: 24px;
-
-}
 
 img {
-	max-width: 100%;
+	max-width: 75%;
 }
 
 main { float: left;
 	width: 60%;
 	height: 50%;
+	font-size: 24px;
 
 }
 
@@ -50,7 +49,7 @@ nav { width: 15%;
 }
 
 #copyright {
-	font-size: 80%;
+	font-size: 18px;
 }
 
 #main-container {
