@@ -13,9 +13,11 @@ body {
 
 h1, h2, h3 {
 	font-family: 'Rakkas', cursive;
+	font-size: 48px;
 }
 
-aside {
+aside { width: 25%;
+	float: left;
 	
 }
 
@@ -27,15 +29,23 @@ header {
 
 }
 
+p{width: 60%;
+	font-size: 24px;
+
+}
+
 img {
-	max-width: 75%;
+	max-width: 100%;
 }
 
-main {
+main { float: left;
+	width: 60%;
+	height: 50%;
 
 }
 
-nav {
+nav { width: 15%;
+	float: left;
 
 }
 
